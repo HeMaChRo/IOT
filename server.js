@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({
     estado: "Activo",
-    version: "1.0.0",
+    version: "1.0.1",
     mensaje: "Microservicio desplegado automáticamente en la Nube",
     timestamp: new Date().toISOString()
   }));
