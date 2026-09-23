@@ -2,7 +2,7 @@ name: Notificacion de Despliegue Cloud
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "proyecto-Cloud" ]
 
 jobs:
   notificar:
