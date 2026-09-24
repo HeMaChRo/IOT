@@ -13,6 +13,6 @@ jobs:
           curl -H "Content-Type: application/json" \
                -X POST \
                -d '{
-                 "content": "🚀 **Nuevo despliegue en proceso**\n- **Origen:** GitHub (SaaS)\n- **Destino:** Render (PaaS)\n- **Commit:** '"${{ github.sha }}"'\n- **Autor:** '"${{ github.actor }}"'"
+                 "content": " **Nuevo despliegue en proceso**\n- **Origen:** GitHub \n- **Destino:** Render \n- **Commit:** '"${{ github.sha }}"'\n- **Autor:** '"${{ github.actor }}"'"
                }' \
                ${{ secrets.DISCORD_WEBHOOK }}
